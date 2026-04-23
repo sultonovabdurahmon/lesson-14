@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.topnav {
+    max-width: 1180px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px auto;
+    margin-bottom: 75px;
+}
+
+.navbar {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #212832;
+    font-weight: 600;
+}
+
+.sign-up {
+    border: 1px solid #212832;
+    border-radius: 5px;
+    padding: 10px 24px;
+    white-space: nowrap;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content span {
+    width: 410px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #DF6951;
+}
+
+.banner-content h1 {
+    width: 545px;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 89px;
+    color: #181E4B;
+}
+
+.banner-content p {
+    width: 477px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5E6282;
+}
+
+.banner-actions {
+    display: flex;
+}
+
+.button-one, .button-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-one img {
+    display: block;
+    margin-left: -35px;
+}
