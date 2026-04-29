@@ -154,14 +154,13 @@ header {
 .banner-img {
     flex: 1;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     overflow: hidden;
 }
 
 .banner-img img {
-    width: 783px;
-    height: 764px;
-    max-width: 100%;
+    width: 123%;
+    max-width: 1000px;
     height: auto;
     object-fit: contain;
     display: block;
@@ -172,70 +171,4 @@ header {
     top: 0;
     right: 0;
     z-index: -1;
-}
-
-
-.destinations {
-    text-align: center;
-}
-
-.subtitle {
-    font-size: 18px;
-    font-weight: 600;
-    color: #5E6282;
-    margin-bottom: 10px;
-}
-
-.title {
-    font-size: 50px;
-    font-weight: 700;
-    margin-bottom: 40px;
-    color: #14183E;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.card {
-    width: 260px;
-    background: white;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-.card img {
-    width: 100%;
-    height: 324px;
-    object-fit: cover;
-}
-
-.card-body {
-    padding: 20px;
-}
-
-.card-header {
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    color: #5E6282;
-}
-
-.card-footer {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #5E6282;
-    font-size: 18px;
-    font-weight: 400;
 }
