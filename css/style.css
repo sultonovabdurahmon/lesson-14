@@ -172,3 +172,21 @@ header {
     right: 0;
     z-index: -1;
 }
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    color: #5E6282;
+}
+
+.subtitle {
+    font-family: "Volkhov", serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #14183E;
+    margin: 0;
+    margin-bottom: 48px;
+}
