@@ -60,9 +60,22 @@
 }
 
 .card-footer {
+    margin-top: 20px;
+}
+
+.destinations-day {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #5E6282;
+
     font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #5E6282;
+}
+
+.destinations-day img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
 }

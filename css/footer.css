@@ -37,7 +37,6 @@
 }
 
 .footer-col h3 {
-    text-align: center;
     color: #080809;
     font-size: 20px;
     margin-bottom: 25px;
@@ -46,6 +45,8 @@
 
 .footer-col ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-col ul li {

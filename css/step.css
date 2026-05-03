@@ -177,3 +177,10 @@
     background: #8A79DF;
     border-radius: 10px;
 }
+
+.trip-image-back{
+    position: absolute;
+    left: -100px;
+    top: -200px;
+    z-index: -1;
+}
